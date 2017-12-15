@@ -3,11 +3,18 @@ layout: default
 ---
 
 <main>
-	<ul class="post_list">
+	<div class="post_list">
 		{% for post in site.posts %}
-		<li>
+		<button class="item">
 			<img src="{{ post.image }}" alt="{{ post.title }}">
-		</li>
+		</button>
 		{% endfor %}
-	</ul>
+		<button class="item"></button>
+		<button class="item"></button>
+		<button class="item"></button>
+		<button class="item"></button>
+		<button class="item"></button>
+		<button class="item"></button>
+		<button class="item"></button>
+	</div>
 </main>
